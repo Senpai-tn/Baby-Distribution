@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.cardI-label {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
+
+.cardI {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+    /*border-radius: 20%;*/
+
+}
+
+    .cardI div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #FFF;
+        text-align: center;
+        padding: 5%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 25px;
+        border:solid darkblue 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*border-radius: 20%;*/
+       
+    }
+
+    .cardI .back {
+        display:block;
+        background: #222;
+        color: #FFF;
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+
+
+
+    .back a
+    {
+        display: block;
+        font-size: larger;
+        font-family: Roboto;
+    }
+
+label:hover .cardI {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+}
+
+
+:checked + .cardI  {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+
+.active-animatioon {
+    background-image: linear-gradient(90deg, #fff 50%, transparent 50%), linear-gradient(90deg, #fff 50%, transparent 50%), linear-gradient(0deg, #fff 50%, transparent 50%), linear-gradient(0deg, #fff 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+    background-position: left top, right bottom, left bottom, right   top;
+    border-radius: 25px;
+    animation: border-dance 1s infinite linear;
+  }
+  @keyframes border-dance {
+    0% {
+      background-position: left top, right bottom, left bottom, right   top;
+    }
+    100% {
+      background-position: left 15px top, right 15px bottom , left bottom 15px , right   top 15px;
+    }
+  }
+
+
+.toggle
+{
+    transform:rotateX(180deg) ;
+    margin: 10px;
+    color: white;
+}
+
+.toggle:visited
+{
+    margin: 10px;
+    color: white;
+}
+
+.toggle:hover
+{
+    transform: scale(2.8) rotateX(180deg);
+    color: indianred;
+    margin: 10px;
+    box-shadow: #0b0b0b 1px 1px 1px 1px;
+    border-radius: 50%;
+
+}
+
+.item
+{
+    height: 100%;
+}
+
+li:hover
+{
+    color: white;
+}
+
+
+
+
