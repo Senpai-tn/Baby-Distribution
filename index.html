@@ -23,7 +23,19 @@
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+
 	<link rel="stylesheet" href="css/flip.css">
+	<link rel="stylesheet" href="css/menu-left.css">
+	<link rel="stylesheet" href="css/book.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+	<link href="css/booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+
 
 </head>
 
@@ -186,12 +198,26 @@
 			</div>
 		</div>
 		<span class="wgl-env-theme__toggle">
-			<span class="wgl-env-theme-close_icon ">Notre Catalogue</span>
-			<a href="#" class="toggle"><i class="fa fa-map-marker  "></i></a>
-			<a href="#" class="toggle"><i class="fa fa-share-alt "></i></a>
-			<a href="#" class="toggle"><i class="fa fa-home " ></i></a>
+			<span class="wgl-env-theme-close_icon toggle-container">Notre Catalogue</span>
+			<div class="toggle-one">
+				<a href="#" class="toggle"><i class="fa fa-map-marker  "></i></a>
+				<p class="toggle-descreption">Location</p>
+
+			</div>
+			<div class="toggle-two">
+
+				<a href="#" class="toggle"><i class="fa fa-share-alt "></i></a>
+				<p class="toggle-descreption">Share</p>
+			</div>
+			<div class="toggle-three">
+
+				<a href="#" class="toggle"><i class="fa fa-home " ></i></a>
+				<p class="toggle-descreption">Home</p>
+			</div>
 
 		</span>
+
+
 
 
 		<div class="overlay-header"></div>
@@ -209,7 +235,7 @@
     </div> -->
 
 	<section class="ftco-section ftco-no-pt ftco-animate fadeR">
-		
+
 		<div class="container" style="margin-top:5%">
 			<div class="row justify-content-center align-items-center">
 				<div class="col-md-6 px-4  text-center">
@@ -253,12 +279,6 @@
 				<!-- <div class="overlay-presentation"></div> -->
 
 				<div class="col-md-12 text-left p-5 " style="    background: rgba(0,0,0,0.6);">
-					<h5 class="text-black ftco-animate fadeInLeft" style="background: rgba(255,255,255,0.7);
-					border-radius: 20px;
-					width: fit-content;
-					padding: 10px;
-					padding-top: 2px;
-					padding-bottom: 2px;">PRESENTATION</h5>
 					<br />
 					<p class="text-white mt-2 ftco-animate fadeInLeft">
 						BABY DISTRIBUTION assure l'importation,le stockage et la distribution de COMPLEMENT ALIMENTAIRE,
@@ -275,11 +295,7 @@
 			<div class="row mt-4" style="padding-left: 15%;
 			padding-right: 15%;">
 				<div class="col-md-12 text-left ftco-animate fadeInRight">
-					<h5 class="text-white" style="background:#5d5d5c;border-radius: 20px;
-					width: fit-content;
-					padding: 10px;
-					padding-top: 2px;
-					padding-bottom: 2px;">L'ADN DE LA BOITE</h5>
+
 				</div>
 			</div>
 			<div class="row justify-content-center align-items-center mt-4" style="padding-left:5%;padding-right:5%">
@@ -383,10 +399,11 @@
 								
 
 							</div>
-							<div class="back" style="background:rgb(136, 212, 242)">
-
+							<div class="back" style="background:url('images/pregnant.jpg');background-size: cover;">
+								<div style="position: absolute;width: 100%;height: 100%;background-color: #121212;top: 0;left: 0;opacity: 0.6;z-index: -100">
+								</div>
 								<img src="./images/univers-humain-b.png" class="mt-4 mb-4" height="90px">
-								<p class="text-white mt-2 mb-4 text-center">Composé d'une large gamme de produits dans
+								<p class="text-white mt-2 mb-4 text-center" style="color: white;z-index: -100">Composé d'une large gamme de produits dans
 									différentes spécialités :
 									Les soins pour bébé, des soins intimes et des dispositifs médicaux des Laboratoires
 									NEO​
@@ -410,7 +427,9 @@
 									<h2 class="text-black font-weight-bold mt-2 mb-4">SANTE ANIMALE</h2>
 							     </span>
 						</div>
-						<div class="back text-black" style="background:rgb(136, 212, 242)">
+						<div class="back text-black" style="background:url('images/sheep.jpg');background-size: cover;">
+							<div style="position: absolute;width: 100%;height: 100%;background-color: #121212;top: 0;left: 0;opacity: 0.6;z-index: -100">
+							</div>
 							<img src="./images/univers-animale.png" class="mt-4 mb-4" height="90px">
 							<p class="text-white mt-2 mb-4">Dédié à l’Accompagnement des professionnels de la santé
 								animale composé d’une gamme de vaccins pour la santé animale de CZ Veterinaria S.A
@@ -472,7 +491,7 @@
 			</div>
 		</div>
 	</section> -->
-	<section class="ftco-counter" id="section-counter" style="background:#fcf9f4 !important;">
+	<section class="ftco-counter" id="catalogue" style="background:#fcf9f4 !important;">
 		<div class="overlay-header" style="top: 0;
 		-webkit-transform: scaleY(-1);
 		transform: scaleY(-1);"></div>
@@ -540,7 +559,48 @@
 				</div>
 			</div> -->
 		</div>
+		<div class="book_wrapper col-md-10">
+			<a id="next_page_button"></a>
+			<a id="prev_page_button"></a>
+
+			<div id="mybook" style="display:none;">
+				<div class="b-load">
+					<div>
+						<img src="images/Catalogue/1.jpg" alt=""/>
+					</div>
+					<div>
+						<img src="images/Catalogue/2.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/3.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/4.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/5.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/6.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/7.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/8.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/9.jpg" alt="" />
+					</div>
+					<div>
+						<img src="images/Catalogue/10.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</section>
+
 	<section class="ftco-counter " id="section-counter" style="height: 250px;margin-top:-5%;
     overflow: hidden;">
 
@@ -553,7 +613,7 @@
 			<div class="row justify-content-center pb-5 mb-3">
 				<div class="col-md-7 heading-section text-center ">
 					<img src="./images/logo-blog.png">
-					<h2 class="text-black mb-2">Read Our News</h2>
+					<h2 class="text-black mb-2">A la une</h2>
 					<p class="text-black text-center mt-2">Lorem Ipsum is simply dummy text of the printing and
 						typesetting industry. Lorem Ipsum
 						has been</p>
@@ -564,10 +624,10 @@
 					<div class="carousel-testimony owl-carousel ftco-owl">
 						<div class="item">
 							<div class="card">
-								<img class="card-img-top" src="./images/products/slide0011_image036.jpg" alt="Card image cap">
+								<img class="card-img-top" src="./images/102731C9-DCB9-4695-A7E6662F7082585C_source.jpg" alt="Card image cap">
 								<div class="card-body text-center">
-									<h5 class="card-title">Neo Baby Gripe WATER</h5>
-									<p class="card-text">Coliques de nourrissons, gazs, ballonnements
+									<h5 class="card-title">Why Some People Are Still Getting Sick—but Not with COVID</h5>
+									<p class="card-text">
 									</p>
 									<a href="#">Read More</a>
 								</div>
@@ -575,32 +635,30 @@
 						</div>
 						<div class="item">
 							<div class="card">
-								<img class="card-img-top" src="./images/products/omegaPro.png" alt="Card image cap">
+								<img class="card-img-top" src="./images/E532C6B5-DC08-4809-A1FF14FF23BF777C_source.jpg" alt="Card image cap">
 								<div class="card-body text-center">
-									<h5 class="card-title">OmegaPro Junior</h5>
-									<p class="card-text">Oméga3,mémoire,concentration .
-									</p>
+									<h5 class="card-title">Protecting against COVID’s Aerosol Threat</h5>
+									<p class="card-text"></p>
 									<a href="#">Read More</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="card">
-								<img class="card-img-top" src="./images/products/multiPro.png" alt="Card image cap">
+								<img class="card-img-top" src="./images/5B16614E-DA55-4435-85A68279D78078AC_source.png" alt="Card image cap">
 								<div class="card-body text-center">
-									<h5 class="card-title">MULTIPro Junior</h5>
-									<p class="card-text">Vitamines, Appétit .
-									</p>
+									<h5 class="card-title">Flu Season Never Came to the Southern Hemisphere</h5>
+									<p class="card-text"></p>
 									<a href="#">Read More</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="card">
-								<img class="card-img-top" src="./images/products/forcePro.png" alt="Card image cap">
+								<img class="card-img-top" src="./images/35253C9C-63A8-432F-A4CD451F0010AC70_source.jpg" alt="Card image cap">
 								<div class="card-body text-center">
-									<h5 class="card-title">ForcePro Junior</h5>
-									<p class="card-text">Immunité, défenses naturelles .</p>
+									<h5 class="card-title">Humans Are All More Closely Related Than We Commonly Think</h5>
+									<p class="card-text"></p>
 									<a href="#">Read More</a>
 								</div>
 							</div>
@@ -826,6 +884,13 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+
+	<script src="js/book.js"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="css/booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="css/booklet/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+
 
 
 

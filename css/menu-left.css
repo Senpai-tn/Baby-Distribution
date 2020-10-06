@@ -1,0 +1,22 @@
+.menu-right
+{
+    position: fixed;
+    right: 0;
+    top: calc(40% - 200px);
+    z-index: 1000;
+    text-align: center;
+}
+
+.icon-right
+{
+    background-color: deepskyblue;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-right:hover
+{
+    transform: scale(1.5);
+}
+

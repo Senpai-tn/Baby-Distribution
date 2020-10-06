@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7d6f43-3665-45ef-8ff4-18c6d3aa2183" name="Default Changelist" comment="" />
+    <list default="true" id="0b7d6f43-3665-45ef-8ff4-18c6d3aa2183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/images/arrow-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/images/arrow-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/images/shadow-top-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/images/shadow-top-forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/jquery.booklet.1.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/jquery.booklet.1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booklet/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/menu-left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/102731C9-DCB9-4695-A7E6662F7082585C_source.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/35253C9C-63A8-432F-A4CD451F0010AC70_source.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5B16614E-DA55-4435-85A68279D78078AC_source.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/h1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/left_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/right_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Catalogue/wood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/E532C6B5-DC08-4809-A1FF14FF23BF777C_source.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pregnant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sheep.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +54,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iJn8oAPtif4OMz8L2xCDX58U3I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -18,8 +68,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khale\Desktop\squellette\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,16 +89,30 @@
       <option name="presentableId" value="Default" />
       <updated>1601634429795</updated>
       <workItem from="1601634440533" duration="10212000" />
+      <workItem from="1601891076439" duration="15509000" />
+      <workItem from="1601972893125" duration="752000" />
+      <workItem from="1602016039504" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1601637574696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1601637574696" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1601891660140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601891660140" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601916549603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601916549603" />
   </component>
 </project>
