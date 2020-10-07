@@ -10076,7 +10076,7 @@ body > header > div > div.owl-dots{
   align-items: flex-start;
   text-align: center;
   cursor: pointer;
-  line-height: 40px;
+  line-height: 60px;
   transition: 0.45s ease-in-out;
   background-color: transparent;
   color: rgba(255,255,255,1);
@@ -10087,11 +10087,11 @@ body > header > div > div.owl-dots{
   text-orientation: mixed;
   white-space: nowrap;
   /* transform: rotate(180deg); */
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   overflow: hidden;
-  max-height: 300px;
-  height: 300px;
+  max-height: 500px;
+  height: 330px;
   min-width: 40px;
   backface-visibility: hidden;
   z-index: 9999;
@@ -10253,17 +10253,16 @@ body > header > div > div.owl-dots{
 }
 
 .toggle-one:hover{
-  width: 100px;
-  height: 50px;
+  width: 15%;
+  height: 15%;
 }
 .toggle-two:hover{
-  width: 100px;
-  height: 50px;
-
+  width: 15%;
+  height: 15%;
 }
 .toggle-three:hover{
-  width: 100px;
-  height: 50px;
+  width: 15%;
+  height: 15%;
 }
 .toggle-descreption{
   display: none;
@@ -10274,40 +10273,21 @@ body > header > div > div.owl-dots{
   display: flex;
   font-size: 15px;
   align-items: center;
-  color: indianred;
+  color: white;
 
 }
 .toggle-one:hover  .toggle-descreption {
   display: flex;
   font-size: 15px;
   align-items: center;
-  color: indianred;
+  color: white;
 }
 .toggle-two:hover  .toggle-descreption {
   display: flex;
   font-size: 15px;
   align-items: center;
-  color: indianred;
+  color: white;
 }
 
 
 
-.toggle-three:hover  .toggle {
-  color: indianred;
-  font-size: 25px;
-}
-.toggle-one:hover  .toggle {
-  color: indianred;
-  font-size: 25px;
-}
-.toggle-two:hover  .toggle {
-  color: indianred;
-  font-size: 25px;
-}
-/* .black{
-  background: rgb(17, 17, 17);
-  opacity: 0.6;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-} */

@@ -1,49 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7d6f43-3665-45ef-8ff4-18c6d3aa2183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/images/arrow-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/images/arrow-prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/images/shadow-top-back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/images/shadow-top-forward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/images/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/jquery.booklet.1.1.0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/jquery.booklet.1.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/booklet/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/menu-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/102731C9-DCB9-4695-A7E6662F7082585C_source.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/35253C9C-63A8-432F-A4CD451F0010AC70_source.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/5B16614E-DA55-4435-85A68279D78078AC_source.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/buttons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/h1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/left_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/right_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Catalogue/wood.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/E532C6B5-DC08-4809-A1FF14FF23BF777C_source.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pregnant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sheep.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/book.js" afterDir="false" />
+    <list default="true" id="0b7d6f43-3665-45ef-8ff4-18c6d3aa2183" name="Default Changelist" comment="06/10/2020">
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0713.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0715.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0717.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0726.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0730.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0734.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0742.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0746.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0748.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0750.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0751.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0754.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0758.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0762.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0766.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0770.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0771.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0772.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0774.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_0777.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_9537.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/products/IMG_9546.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flip.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flip.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/forcePro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/multiPro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/omegaPro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0011_image033.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0011_image036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0011_image040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0071_image259.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0074_image262.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0080_image274.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/slide0084_image277.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/vaccine-mixomat.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +89,17 @@
       <workItem from="1601634440533" duration="10212000" />
       <workItem from="1601891076439" duration="15509000" />
       <workItem from="1601972893125" duration="752000" />
-      <workItem from="1602016039504" duration="597000" />
+      <workItem from="1602016039504" duration="1290000" />
+      <workItem from="1602077648782" duration="5395000" />
     </task>
+    <task id="LOCAL-00001" summary="06/10/2020">
+      <created>1602016687768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602016687768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,19 +107,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="06/10/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="06/10/2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="90" key="#Inspections" timestamp="1601637574696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1601637574696" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1602083179140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602083179140" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1601891660140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601891660140" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1601916549603">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602016698120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601916549603" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602016698120" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1602079028044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602079028044" />
   </component>
 </project>
