@@ -8210,7 +8210,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.1s ease-in-out 0s;
   z-index: -1; }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-  color: #004267;
+  color: #4273AA;
   opacity:0.8 !important; }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
   visibility: visible;
@@ -10159,7 +10159,8 @@ body > header > div > div.owl-dots{
   bottom: -23%;
 }
 .group-img{
-  height:50px;
+  height:auto;
+  width: 75%;
 }
 .overlay-bande-1
 {
