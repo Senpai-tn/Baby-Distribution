@@ -1,0 +1,67 @@
+	<section class="ftco-section testimony-section ftco-animate fadeR" style="background-image: url('images/bg_social.png');">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center pb-5 mb-3">
+				<div class="col-md-7 heading-section text-center">
+					<h2 style="color:#17a2b8;">Réseaux sociaux</h2>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-md-3 scocial-card" style="">
+					<div class="social-zone" style="background-color: #2a5297;" >
+						<img src="images/didon.png" class="social-image" alt="">
+						<p class="social-title"><a href="https://www.facebook.com/DidonPharma">Didon Pharma</a></p>
+						<img src="images/fb_icon.png" class="social-icon" alt="">
+					</div>
+					<div class="post-image">
+						<img src="images/fb_pub.png" style="position: absolute;height: 100%;width: 100%" alt="">
+					</div>
+					<p class="social-text">
+						Booster la croissance de votre enfant au quotidien avec Multipro Junior !
+						Contenant des vitamines et des oligoéléments essentiels pour l’organisme, Multipro Junior aide à la croissance complète , au bon fonctionnement du système nerveux et du système immunitaire de votre enfant !
+						Profitez-en maintenant : didonpharma.com
+					</p>
+					<a href="https://www.facebook.com/DidonPharma/photos/a.118204516702173/129016165621008" target="_blank" class="btn btn-info" style="position: absolute;bottom: 0;left: 30%">View Post</a>
+
+				</div>
+
+				<div class="col-md-3 scocial-card" style="">
+					<div class="social-zone" style="background-color: #121212">
+						<img src="images/didon.png" class="social-image" alt="">
+						<p class="social-title"><a href="https://www.instagram.com/didonpharma/" target="_blank">Didon Pharma</a></p>
+						<img src="images/insta_icon.png" class="social-icon" alt="">
+					</div>
+					<div class="post-image">
+						<img src="images/fb_pub.png" style="position: absolute;height: 100%;width: 100%" alt="">
+					</div>
+					<p class="social-text">
+						Booster la croissance de votre enfant au quotidien avec Multipro Junior !
+						Contenant des vitamines et des oligoéléments essentiels pour l’organisme, Multipro Junior aide à la croissance complète , au bon fonctionnement du système nerveux et du système immunitaire de votre enfant !
+						Profitez-en maintenant : didonpharma.com
+					</p>
+					<a href="https://www.instagram.com/p/CF-C49fALFu/" target="_blank" class="btn btn-info" style="position: absolute;bottom: 0;left: 30%">View Post</a>
+
+				</div>
+
+				<div class="col-md-3 scocial-card" style="">
+					<div class="social-zone" style="background-color: #0077b5" >
+						<img src="images/didon.png" class="social-image" alt="">
+						<p class="social-title"><a href="https://www.linkedin.com/company/didon-pharma/?miniCompanyUrn=urn%3Ali%3Afs_miniCompany%3A68784564" target="_blank">Didon Pharma</a></p>
+						<img src="images/linkedin.png" class="social-icon" alt="">
+					</div>
+					<div class="post-image">
+						<img src="images/fb_pub.png" style="position: absolute;height: 100%;width: 100%" alt="">
+					</div>
+					<p class="social-text">
+						Booster la croissance de votre enfant au quotidien avec Multipro Junior !
+						Contenant des vitamines et des oligoéléments essentiels pour l’organisme, Multipro Junior aide à la croissance complète , au bon fonctionnement du système nerveux et du système immunitaire de votre enfant !
+						Profitez-en maintenant : didonpharma.com
+					</p>
+					<a href="https://www.linkedin.com/posts/didon-pharma_booster-la-croissance-de-votre-enfant-au-activity-6718927869692657664-T3xP" target="_blank" class="btn btn-info" style="position: absolute;bottom: 0;left: 30%">View Post</a>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
