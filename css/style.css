@@ -8362,7 +8362,7 @@ h1, h2, h3, h4, h5,
     background-position: center center !important; } }
 .hero-wrap video {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -10153,7 +10153,7 @@ body > header > div > div.owl-dots{
   background-image: url(../images/bg-footer.png) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  height: 200px;
+  height: 213px;
   width: 100%;
   position: absolute;
   bottom: -23%;
